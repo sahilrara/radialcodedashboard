@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url(./style.css);
+
+:root {
+    /* FONT SIZES VARIABLES  */
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-22: 22px;
+    --fs-20: 20px;
+    --fs-9: 9px;
+    --fs-11: 11px;
+    --fs-11: 11px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.nav-tabs {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 0 36px 0 36px !important;
+    margin: auto !important;
+}
+
+.ms-30 {
+    margin-left: 30px;
+}
+
+.ms-40 {
+    margin-left: 40px;
+}
+
+.ms-56 {
+    margin-left: 56px;
+}
+
+.ms-57 {
+    margin-left: 57px;
+}
+
+.ms-40 {
+    margin-left: 40px;
+}
+
+.green-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #00E676;
+    border-radius: 50%;
+    margin-right: 0px !important;
+    list-style: none;
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.green-line {
+    width: 113px;
+    height: 6px;
+    background-color: #00DF72;
+    margin-top: 8px;
+    list-style: none;
+    margin-right: 0px !important;
+}
+
+.Inquiry {
+    margin-bottom: 0px;
+    height: 24px;
+}
+
+.red-dot {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 0px !important;
+    list-style: none;
+}
+
+.red-line {
+    width: 113px;
+    margin-top: 8px;
+    height: 6px;
+    list-style: none;
+    background-color: #ff00009c;
+    margin-right: 0px !important;
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.hero-section {
+    padding: 27px 20px 27px 34px;
+    padding-bottom: 80px;
+    background-color: #E0E0E0;
+}
+
+.h-294 {
+    height: 294px;
+}
+
+.Profile {
+    border-top: 0.1px solid #00000059;
+    padding-top: 16px;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.h-198 {
+    height: 198px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.hero-div {
+    border-right: 1px dotted black;
+}
+
+.hero-row {
+    padding: 17px 23px;
+}
+
+.Fee-Details {
+    margin-left: 55px;
+}
+
+.DR-Bhim-Rao {
+    margin-bottom: 0;
+}
+
+.DAV {
+    margin-bottom: 0;
+}
+
+.UI-UX {
+    padding-left: 30px;
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.Bank-Of-India {
+    padding-left: 205px !important;
+}
+
+.aadhar-card {
+    padding-left: 240px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.list-rounded {
+    width: 16px;
+    height: 15px;
+    background-color: #4D4D4D;
+    border-radius: 50%;
+    margin-right: 0px !important;
+    list-style: none;
+}
+
+.list {
+    margin-left: 5px;
+    width: 6px;
+    height: 60px;
+    background-color: #4D4D4D;
+    list-style: none;
+    margin-right: 0px !important;
+}
+
+.personal-information {
+    padding: 28px 25px;
+    width: 49%;
+}
+
+.family-contact {
+    padding: 28px 25px;
+    width: 49%;
+}
+
+.bank-details {
+    padding: 23px;
+    width: 49%;
+}
+
+.Qualifications {
+    padding: 13px 23px 1px 12px;
+    width: 49%;
+}
+
+.Experience {
+    padding: 23px;
+    width: 49%;
+}
+
+.Feedback {
+    padding: 28px 25px;
+    width: 49%;
+}
+
+.data-Qualifications {
+    margin-left: 5px;
+    width: 6px;
+    height: 82px;
+    background-color: #4D4D4D;
+    list-style: none;
+    margin-right: 0px !important;
+}
+
+.Feedback p {
+    font-weight: 400;
+    padding: 6px 0 5px 12px;
+    color: black;
+    max-width: 678px;
+    line-height: 31px;
+}
+
+.bg-green {
+    border-radius: 4px;
+    background-color: #00C163;
+    transition: 0.5s;
+}
+
+.bg-green:hover {
+    background-color: #136c41 !important;
+}
+
+.pe-100 {
+    padding-left: 264px;
+}
+
+.bg-yellow {
+    border-radius: 4px;
+    background-color: #EFD700 !important;
+    transition: 0.5s;
+}
+
+.bg-yellow:hover {
+    background-color: #b1a007 !important;
+}
+
+.f-14 {
+    font-size: var(--fs-14);
+}
+
+.ps-30 {
+    padding-left: 30px;
+}
+
+/* --FEE-DEATAILS-CSS-- */
+.pen-icon {
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+ul[role*="tablist"] {
+    background: #FFFFFF;
+    border: .5px solid #00000040;
+    box-sizing: border-box;
+}
+
+ul[role*="tablist"] li button {
+    color: #000000 !important;
+    opacity: 0.7;
+}
+
+ul[role*="tablist"] li button.active {
+    color: #000000 !important;
+    opacity: 0.7;
+}
+
+.profileInfo-table {
+    border-spacing: 0 12px;
+    border-collapse: separate;
+}
+
+.profileInfo-table tr,
+td {
+    border: none !important;
+    vertical-align: top;
+}
+
+.profileInfo-table tr td {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: var(--fs-xs);
+}
+
+.profileInfo-table tr td:first-of-type {
+    width: 30%;
+}
+
+.addMoreForm input {
+    padding: 1.2em 1.0666666666666667em;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #0000008c;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.addMoreForm label {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: var(--fs-small);
+    line-height: 22px;
+    color: var(--color-dark);
+    position: relative;
+}
+
+.addMoreForm label::after {
+    content: "*";
+    top: 0;
+    right: 0;
+    color: red;
+}
+
+.addMoreForm label:hover {
+    font-weight: 600;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    font-size: var(--fs-small);
+    outline: none;
+    font-weight: 500;
+    font-family: 'Poppins';
+    /* width: 100%; */
+    text-overflow: ellipsis;
+}
+
+.label {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+.label:hover {
+    border: .5px solid #000000 !important;
+}
+
+.label div span:first-child {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.label div span:last-child {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.counsellor-table {
+    border-collapse: separate;
+    border-spacing: 0 1px;
+}
+
+table.counsellor-table tr,
+th,
+td {
+    padding: 0 .5em;
+    background: #FFFFFF;
+    border: solid #000000;
+    border-top: 0.1px solid #000000;
+    border-bottom: 0.1px solid #000000;
+    border-right: 0;
+    border-left: 0;
+    box-sizing: border-box;
+}
+
+table.counsellor-table thead tr th {
+    border-top: 0.1px solid #000000;
+    border-bottom: 0.1px solid #000000;
+    border-right: 0;
+    border-left: 0;
+    padding: .5em;
+}
+
+table.counsellor-table thead tr th:first-of-type {
+    border-left: 0.1px solid #000000;
+}
+
+table.counsellor-table thead tr th:last-of-type {
+    border-right: 0.1px solid #000000;
+}
+
+table.counsellor-table tr th,
+td:first-of-type {
+    border-left: 0.1px solid #000000;
+}
+
+table.counsellor-table tr th,
+td:last-of-type {
+    border-right: 0.1px solid #000000;
+}
+
+table.counsellor-table tbody tr td {
+    padding: 1.875em .5em;
+    margin: 1px 0 !important;
+}
+
+table.counsellor-table tr:nth-child(even) td {
+    background: #EDEDED !important;
+}
+
+.counsellor-table svg {
+    cursor: pointer;
+}
+
+.plus-icon {
+    cursor: pointer;
+}
+
+/* --FEE-DEATAILS-CSS-ENDS- */
+@media (max-width:1920px) {
+    .mt-41 {
+        margin-top: 14px;
+    }
+
+    .Experience {
+        height: 295px;
+    }
+
+    .Feedback {
+        height: 295px;
+    }
+
+    .footer-btn {
+        margin-top: 20px;
+    }
+
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:1545px) {
+    .f-14 {
+        font-size: 11px;
+
+    }
+}
+
+@media (max-width:1556px) {
+    .ps-30 {
+        padding-left: 30px;
+    }
+
+    .ps-5 {
+        padding-left: 203px !important;
+    }
+
+    .phone-no {
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width:1385px) {
+    .f-14 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1394px) {
+    .green-line {
+        width: 78px !important;
+    }
+
+    .red-line {
+        width: 89px !important;
+    }
+}
+
+@media (max-width:1366px) {
+    .hero-heading {
+        margin-left: 21px !important;
+    }
+
+    .aadhar-card {
+        padding-left: 228px !important;
+    }
+
+    .pe-100 {
+        padding-left: 116px;
+    }
+
+    .mt-41 {
+        margin-top: 17px !important;
+    }
+
+    .Experience {
+        height: 299px !important;
+    }
+
+    .Feedback {
+        height: 299px !important;
+    }
+
+    .Feedback p {
+        line-height: 25px !important;
+    }
+
+    .footer-btn {
+        margin-top: 20px;
+    }
+
+    .red-line {
+        width: 70px;
+    }
+
+    .lie {
+        width: 87px;
+    }
+
+    .ms-30 {
+        margin-left: 33px;
+    }
+
+    .font-14 {
+        font-size: 11px;
+    }
+}

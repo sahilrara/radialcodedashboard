@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mw-997 {
+    max-width: 997px !important;
+}
+
+.text-lighter {
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.border-common {
+    border: 1px solid #868488;
+}
+
+.br-15 {
+    border-radius: 15px !important;
+}
+
+.br-5 {
+    border-radius: 5px !important;
+}
+
+.input {
+    border: 1px solid #868488;
+    font-size: 15px;
+}
+
+.star {
+    color: red;
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+.small-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.w-403 {
+    width: 403px;
+}
+
+.w-55 {
+    width: 55px;
+}
+
+.w-232 {
+    width: 232px;
+}
+
+.pop-select {
+    width: 403px !important;
+    border-radius: 4px;
+    padding: 0 20px;
+    appearance: none !important;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position-x: 370px;
+    background-position-y: center;
+}
+
+.small-pop-select {
+
+    border-radius: 5px !important;
+    padding: 0 10px 0 0 !important;
+    appearance: none !important;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: center;
+}
+
+.small-pop-select-2 {
+
+    border-radius: 5px !important;
+    padding: 0 10px;
+    appearance: none !important;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position-x: 75%;
+    background-position-y: center;
+}
+
+.border-none {
+    border: none;
+}
+
+.cross {
+    border-radius: 50%;
+    background: url(../images/Group\ 2162.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+
+.green-btn {
+    background: #00C163 !important;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 54px;
+    border-color: transparent;
+    font-weight: 700;
+}
+
+select,
+input:focus-visible {
+    outline: none;
+}
+
+input:focus {
+    border-color: #868488 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.blue-btn {
+    padding: 6px 30px !important;
+    border-radius: 5px;
+    background: #0676DD;
+}
+
+.brows-img {
+    position: absolute !important;
+    top: 18px;
+    right: 47%;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+textarea:focus-visible {
+    outline: none !important;
+}

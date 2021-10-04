@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Hello, world!</title>
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style(2).css">
+</head>
+
+<body>
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered mw-997 ">
+            <div class="modal-content">
+                <div class="modal-header pb-0 border-none p-4">
+                    <button type="button" class="btn-close cross" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-header p-0 border-none">
+                    <h5 class="modal-title mx-auto heading" id="exampleModalToggleLabel">Profile Information</h5>
+
+                </div>
+
+
+                <div class="modal-body  ">
+                    <form class="">
+                        <div class="text-center d-flex align-items-end justify-content-center mb-4 mt-2">
+                            <div>
+                                <img src="./assets/images/pop-up-img-1.png" alt="">
+                            </div>
+                            <div>
+                                <span class="small-heading ">
+                                    Edit
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class="w-40 mt-4">
+                                <label for="recipient-name" class="col-form-label small-heading">First Name <span
+                                        class="star ">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="Dhruv ">
+                            </div>
+                            <div class="w-40 mt-4">
+                                <label for="recipient-name" class="col-form-label small-heading">Last Name<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control  input w-403 py-3" id="recipient-name"
+                                    placeholder="Swami">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading ">Birth Date <span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+
+                                <div class="d-flex w-403 justify-content-between py-3 br-5 border-common pe-2">
+                                    <div class="">
+                                        <select class=" py-3 small-pop-select border-none" name="" id="">
+
+                                            <option selected disabled value="">
+                                                &nbsp; &nbsp; Day
+                                            </option>
+                                            <option value="">
+                                                male
+                                            </option>
+                                            <option value="">
+                                                female
+                                            </option>
+                                        </select> </div>
+                                    <div>
+                                        <select class=" py-3 small-pop-select border-none" name="" id="">
+
+                                            <option selected disabled value="">
+                                                Month
+                                            </option>
+                                            <option value="">
+                                                male
+                                            </option>
+                                            <option value="">
+                                                female
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <select class=" py-3 small-pop-select border-none" name="" id="">
+
+                                            <option selected disabled value="">
+
+                                                &nbsp; &nbsp; Year
+                                            </option>
+                                            <option value="">
+                                                male
+                                            </option>
+                                            <option value="">
+                                                female
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">Gender <span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <div class=" w-40  ">
+                                    <select class="pop-select py-3 " name="" id="">
+
+                                        <option selected disabled value="">
+                                            Choose Your Gender
+                                        </option>
+                                        <option value="">
+                                            male
+                                        </option>
+                                        <option value="">
+                                            female
+                                        </option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">Phone No.<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="8239209316 - 8426873120">
+                            </div>
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">E-Mail ID<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="swamidhruv058@gmail.com">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">House No.<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="B19">
+                            </div>
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">City/Village <span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="8239209316 - 8426873120">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading">District<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <div class=" w-40  ">
+                                    <select class="pop-select py-3" name="" id="">
+
+                                        <option selected disabled value="">
+                                            Choose Your Gender
+                                        </option>
+                                        <option value="">
+                                            male
+                                        </option>
+                                        <option value="">
+                                            female
+                                        </option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading ">State/Province<span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <div class=" w-40  ">
+                                    <select class="pop-select py-3" name="" id="">
+
+                                        <option selected disabled value="">
+                                            Choose Your Gender
+                                        </option>
+                                        <option value="">
+                                            male
+                                        </option>
+                                        <option value="">
+                                            female
+                                        </option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label small-heading ">Country <span
+                                        class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <div class=" w-40  ">
+                                    <select class="pop-select py-3" name="" id="">
+
+                                        <option selected disabled value="">
+                                            Choose Your Gender
+                                        </option>
+                                        <option value="">
+                                            male
+                                        </option>
+                                        <option value="">
+                                            female
+                                        </option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class=" w-40 mt-4 ">
+                                <label for="recipient-name" class="col-form-label fw-bold ">Pin Code<span class=" star">
+                                        *
+                                    </span>
+                                </label>
+                                <input type="text" class="form-control input w-403 py-3" id="recipient-name"
+                                    placeholder="335001">
+                            </div>
+                        </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
+                <div class="modal-footer mx-auto my-3 ">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary  bg-00C163 submit green-btn ">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">click here</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+
+</html>

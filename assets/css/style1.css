@@ -1,0 +1,190 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&family=Poppins&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     /* FONT-SIZES */
+     --fs-xxs: 13px;
+     --fs-xs: 14px;
+     --fs-small: 15px;
+     --fs-body: 16px;
+     --fs-sm: 18px;
+     --fs-regular: 20px;
+     --fs-md: 30px;
+     /* COLORS */
+     --color-black: #000000;
+     --color-teal: #00C163;
+     --color-diamond-lite: #ECECEC;
+     --color-light: #E7E7E7;
+     /* BOX-SHADOW */
+     --box-shadow-1: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ /* -------------TYPOGRAPHY------------- */
+ /* FONT-FAMILY */
+ .ff-poppins {
+     font-family: 'Poppins';
+ }
+
+ .ff-noto-sans {
+     font-family: 'Noto Sans';
+ }
+
+ .ff-noto-serif {
+     font-family: 'Noto Serif';
+ }
+
+ .ff-poppins {
+     font-family: 'Poppins';
+ }
+
+ /* FONT-WEIGHT */
+ .fw-300 {
+     font-weight: 300;
+ }
+
+ .fw-500 {
+     font-weight: 500;
+ }
+
+ .fw-600 {
+     font-weight: 600;
+ }
+
+ .fw-700 {
+     font-weight: 700;
+ }
+
+ /* max-width */
+ .mw-1549 {
+     max-width: 1549px;
+ }
+
+ .mw-1444 {
+     max-width: 1444px;
+ }
+
+ .mw-896 {
+     max-width: 896px;
+ }
+
+ .w-232 {
+     width: 232px;
+ }
+
+ .text-adjustment {
+     text-align: justify;
+ }
+
+ /* font-sizes */
+ .fs-regular {
+     font-size: var(--fs-regular) !important;
+ }
+
+ .fs-small {
+     font-size: var(--fs-small);
+ }
+
+ /* nda-policy */
+ .heading-body {
+     font-family: 'Poppins';
+     font-size: var(--fs-md);
+     color: var(--color-black);
+     font-weight: 700;
+ }
+
+ .body-content {
+     font-size: var(--fs-body);
+     font-weight: 400;
+     color: var(--color-black);
+     font-family: 'Poppins';
+ }
+
+ .next-button {
+     font-size: var(--fs-md);
+     font-weight: 500;
+     background-color: var(--color-black);
+     font-family: 'Poppins';
+ }
+
+ .submit-button {
+     font-size: var(--fs-body);
+     font-weight: 700;
+     background-color: var(--color-teal);
+     font-family: 'Poppins';
+     color: #ffffff;
+ }
+
+ .signature-text-area {
+     max-width: 276px;
+     height: 108px;
+     border: 1px solid #000000;
+     background-color: var(--color-light);
+     box-shadow: var(--box-shadow-1);
+ }
+
+ /* student-policy/-HEADING-CLASSES- */
+ .heading-small {
+     font-size: var(--fs-sm);
+     font-weight: 700;
+     font-family: 'Noto Sans';
+     color: var(--color-black);
+ }
+
+ .heading-medium {
+     font-size: var(--fs-regular);
+     font-weight: 700;
+     font-family: 'Noto Sans';
+     text-decoration: underline;
+     color: var(--color-black);
+ }
+
+ .heading-X-small {
+     font-size: var(--fs-xs);
+     font-weight: 700;
+     color: var(--color-black);
+ }
+
+ #checkbox-1 {
+     background-color: var(--color-diamond-lite);
+ }
+
+ .modal {
+     top: 25px;
+     backdrop-filter: blur(2px);
+ }
+
+ .signature-input {
+     background: var(--color-light);
+     border: 1px solid #000000;
+     box-sizing: border-box;
+     box-shadow: var(--box-shadow-1);
+     height: 108px;
+     width: 276px;
+     position: relative;
+     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+ }
+
+ .signature-input input {
+     width: 100%;
+     position: absolute;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0;
+ }
+
+ .btn-close {
+     position: absolute;
+     top: 15px;
+     right: 15px;
+ }
+
+ .browse-icon {
+     top: 12px;
+     right: 12px;
+ }
